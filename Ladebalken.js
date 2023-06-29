@@ -64,8 +64,8 @@ function draw() {
   textFont(fontUsed);
   textAlign(LEFT);
   text('Leni und Fritzi sehen sich wieder <3', midX - barX * 0.5 , midY - 36);
-  //text(startDate, 100, 100);
-  //text(finalDate, 100, 200);
+  text(startDate, 100, 100);
+  text(finalDate, 100, 200);
   textFont(fontCounter);
   textAlign(RIGHT);
     if (windowWidth <= 500) {
