@@ -27,7 +27,7 @@ function setup() {
   progBarX = barX * 0.99;
   barY = 55;
   progBarY = barY - (barX - progBarX);
-  finalDate = new Date(2023,6,6);
+  finalDate = new Date(2023,0,6);
   startDate = new Date(2023,5,6);
   background(3, 1, 10, 255);
 }
