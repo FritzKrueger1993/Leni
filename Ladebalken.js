@@ -27,8 +27,8 @@ function setup() {
   progBarX = barX * 0.99;
   barY = 55;
   progBarY = barY - (barX - progBarX);
-  finalDate = new Date(2023,6,7);
-  startDate = new Date(2023,6,2);
+  finalDate = new Date(2023,6,31);
+  startDate = new Date(2023,6,16);
   background(3, 1, 10, 255);
 }
 
@@ -64,8 +64,8 @@ function draw() {
   textFont(fontUsed);
   textAlign(LEFT);
   text('Leni und Fritzi sehen sich wieder <3', midX - barX * 0.5 , midY - 36);
-  //text(startDate, 100, 100);
-  //text(finalDate, 100, 200);
+  text(startDate, 100, 100);
+  text(finalDate, 100, 200);
   textFont(fontCounter);
   textAlign(RIGHT);
     if (windowWidth <= 500) {
